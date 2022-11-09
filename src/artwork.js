@@ -14,12 +14,6 @@ class Statue {
         this.price = price;
         __classPrivateFieldSet(this, _Statue_height, height, "f");
     }
-    kiir() {
-        console.log(this.toString());
-    }
-    toString() {
-        let myContainer = document.querySelector(".tbody");
-    }
 }
 _Statue_height = new WeakMap();
 document.addEventListener('DOMContentLoaded', () => {
