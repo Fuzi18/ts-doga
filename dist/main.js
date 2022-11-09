@@ -1,1 +1,0 @@
-(()=>{"use strict";var e;null===(e=document.getElementById("gomb"))||void 0===e||e.addEventListener("click",(()=>{}))})();

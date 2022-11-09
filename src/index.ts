@@ -1,5 +1,7 @@
 let title=/[a-zA-Z ,  ]{1}/;
-let year=/[]/;
+let year=/[0-9]{0,2022}/;
+let price=/[1-9]/;
+let height=/[0-9]{10}/;
 
 
 interface Artwork{
@@ -7,10 +9,3 @@ interface Artwork{
     year:Date;
     price:number;
 }
-
-
-
-
-document.getElementById("gomb")?.addEventListener("click", ()=>{
-
-})
