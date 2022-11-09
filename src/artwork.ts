@@ -1,4 +1,5 @@
 
+
 class Statue implements Artwork{
     title: string;
     year: Date;
@@ -10,12 +11,7 @@ class Statue implements Artwork{
         this.price=price;
         this.#height=height;
     }
-    kiir():void{
-        console.log(this.toString());
-    }
-    toString():any{
-        let myContainer = <HTMLElement>document.querySelector(".tbody");
-    }
+   
         
 }
 document.addEventListener('DOMContentLoaded',()=>{
