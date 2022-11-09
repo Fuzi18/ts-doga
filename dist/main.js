@@ -1,0 +1,1 @@
+(()=>{"use strict";({138:function(){var e;this&&this.__classPrivateFieldSet,new WeakMap,null===(e=document.getElementById("gomb"))||void 0===e||e.addEventListener("click",(()=>{}))}})[138]()})();
